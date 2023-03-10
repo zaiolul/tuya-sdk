@@ -5,7 +5,7 @@ SDKBUILD:=./build
 all: sdk 
 
 sdk: 
-	mkdir $(SDKBUILD)
+	#mkdir $(SDKBUILD)
 	cmake -S$(CURDIR) -B$(SDKBUILD)
 	$(MAKE) -C $(SDKBUILD)
 
